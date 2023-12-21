@@ -1,0 +1,105 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"settings": {
+		"layout": {
+			"contentSize": "80rem",
+			"wideSize": "96rem"
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FFD866",
+					"name": "Monokaki Yellow",
+					"slug": "monokaki-yellow"
+				},
+				{
+					"color": "#1DA3C4",
+					"name": "Monokai Blue",
+					"slug": "monokai-blue"
+				},
+				{
+					"color": "2D282D",
+					"name": "Monokai Brown",
+					"slug": "monokai-brown"
+				},
+				{
+					"color": "#88CB57",
+					"name": "Monokai Green",
+					"slug": "monokai-green"
+				},
+				{
+					"color": "#E66C9B",
+					"name": "Monokai Pink",
+					"slug": "monokai-pink"
+				}
+			]
+		},
+		"typography": {
+			"dropCap": false,
+			"fontFamilies": [
+				{
+					"fontFamily": "IBM Plex Serif, sans-serif",
+					"name": "IBM Plex Serif",
+					"slug": "ibm-plex-serif",
+					"fontFace": [
+						{
+							"fontStyle": "normal",
+							"fontFamily": "IBM Plex Serif",
+							"fontWeight": "400",
+							"src": [ "file:./assets/fonts/IBM-Plex-Serif.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "IBM Plex Sans, sans-serif",
+					"name": "IBM Plex Sans",
+					"slug": "ibm-plex-sans",
+					"fontFace": [
+						{
+							"fontStyle": "normal",
+							"fontFamily": "IBM Plex Sans",
+							"fontWeight": "400",
+							"src": [ "file:./assets/fonts/IBM-Plex-Sans.ttf" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "IBM Plex Serif, sans-serif",
+			"fontSize": "var(--wp--preset--font-size--medium)"
+		}
+	}
+}
